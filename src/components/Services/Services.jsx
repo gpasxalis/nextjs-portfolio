@@ -12,14 +12,14 @@ const Services = () => {
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>
               <div>
-                <ServicesItem title="Web Development" icon="ri-computer-line" />
+                <ServicesItem title="Κατασκευή Ιστοσελίδων" icon="ri-computer-line" />
 
 
-                <ServicesItem title="App Development" icon="ri-apps-line" />
+                <ServicesItem title="Digital Marketing" icon="ri-apps-line" />
               </div>
 
               <ServicesItem
-                title="Full-Stack Development"
+                title="Web Solutions"
                 icon="ri-code-s-slash-line"
               />
             </div>
