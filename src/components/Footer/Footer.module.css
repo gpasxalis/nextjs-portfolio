@@ -45,4 +45,8 @@
     .footer__top {
       display: none;
     }
+
+    .footer__copyright {
+      border-top: 1px solid #20aeb3;
+    }
   }
