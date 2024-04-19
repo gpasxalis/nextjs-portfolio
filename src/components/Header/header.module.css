@@ -108,6 +108,7 @@
     height: 100%;
     flex-direction: column;
     justify-content: center;
+    background: #0e1630;
   }
 
   .nav__right {

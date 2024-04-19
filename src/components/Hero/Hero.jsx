@@ -24,7 +24,7 @@ const Hero = () => {
           id="tsparticles"
           init={particlesInit}
           options={particleConfig}
-          position="absolute"
+          position="relative"
           zIndex={0}
         />
       <Container>

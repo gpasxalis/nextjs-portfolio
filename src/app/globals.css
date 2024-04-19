@@ -14,6 +14,19 @@ main{
   position: relative;
 }
 
+#tsparticles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  height: calc(100vh - 70px) !important;
+}
+
+
 a {
   color: unset;
   text-decoration: none;
@@ -50,10 +63,15 @@ section {
   padding-bottom: 150px;
 }
 
+#portfolio{
+  background: #0e1630;
+}
+
 footer {
   padding-bottom: 10px;
   padding-top: 60px;
-  border-top: 1px solid #171f38;
+  border-top: 1px solid #0b1126;
+  background: #0b1126;
 }
 
 .primary__btn {
