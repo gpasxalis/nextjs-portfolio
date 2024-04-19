@@ -1,5 +1,6 @@
-import Hero from "@/components/Hero/Hero";
 import Header from "@/components/Header/header";
+import Hero from "@/components/Hero/Hero";
+import Services from "@/components/Services/Services";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Services />  
       </main>
     </>
   );

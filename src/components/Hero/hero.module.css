@@ -1,6 +1,7 @@
 .hero {
-    padding-top: 60px !important;
-    background: #0e1630;
+    padding: 0px !important;
+    background: #0b1126;
+    height: calc(100vh - 70px);
   }
   .hero__content h5 {
     color: #808dad;

@@ -19,7 +19,7 @@ const Hero = () => {
 
 
   return (
-    <section className={`${classes.hero}`}>
+    <section className={`${classes.hero} d-flex align-items-center`}>
       <Particles
           id="tsparticles"
           init={particlesInit}
