@@ -36,8 +36,8 @@ const Header = () => {
 
   const headerFunc = () => {
     if (
-      document.body.scrollTop > 80 ||
-      document.documentElement.scrollTop > 80
+      document.body.scrollTop > 75 ||
+      document.documentElement.scrollTop > 75
     ) {
       headerRef.current.classList.add(`${classes.header__shrink}`);
     } else {
@@ -80,8 +80,9 @@ const Header = () => {
 
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
-                  {" "}
-                  <i className="ri-phone-line"></i> +088123456789{" "}
+                  <Link href="https://dalution.gr/" target="_blank" className={`${classes.nav__external_link}`}>
+                    <i className="ri-external-link-line"></i>My Digital Card{" "}
+                  </Link>
                 </p>
               </div>
             </div>

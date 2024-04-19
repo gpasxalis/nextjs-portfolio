@@ -9,11 +9,11 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../utils/data";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("Website");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "Web App") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -21,7 +21,7 @@ const Portfolio = () => {
       setData(filteredData);
     }
 
-    if (filter === "Web Design") {
+    if (filter === "Website") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -37,28 +37,30 @@ const Portfolio = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" className="mb-5">
-            <SectionSubtitle subtitle=" My portfolio" />
+            <SectionSubtitle subtitle="Portfolio" />
             <h4 className="mt-4 white_heading">Some of my distinguished works</h4>
           </Col>
 
           <Col lg="6" md="6">
             <div className={`${classes.tab__btns} text-end`}>
-              <button
-                className={` ${
-                  filter === "Mobile App" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
-              >
-                Mobile App
-              </button>
-              <button
-                className={`${
-                  filter === "Web Design" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
-              >
-                Web Design
-              </button>
+                <button
+                    className={`${
+                    filter === "Website" ? active : ""
+                    } secondary__btn text-white`}
+                    onClick={() => setFilter("Website")}
+                >
+                    Website
+                </button>
+
+                <button
+                    className={` ${
+                    filter === "Web App" ? active : ""
+                    } secondary__btn text-white`}
+                    onClick={() => setFilter("Web App")}
+                >
+                    Web App
+                </button>
+              
             </div>
           </Col>
 

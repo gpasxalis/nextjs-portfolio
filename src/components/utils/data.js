@@ -1,37 +1,37 @@
 const portfolio = [
     {
       id: "01",
-      title: "Transportation Mobile App",
-      img: "/images/portfolio-01.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
+      title: "epapanikolaou Website",
+      img: "/images/epapanikolaou.png",
+      category: "Website",
+      keyword: ["Website", "Wordpress"],
+      liveUrl: "https://epapanikolaou.gr/",
     },
   
     {
       id: "02",
-      title: "Workout Tracker App",
-      img: "/images/portfolio-02.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
-      liveUrl: "#",
+      title: "KarasakalidisLTD Website",
+      img: "/images/karasakalidis.png",
+      category: "Website",
+      keyword: ["Website", "Wordpress", "Multilanguage"],
+      liveUrl: "https://karasakalidisltd.com/",
     },
   
     {
       id: "03",
-      title: "Fashion Shopping App",
-      img: "/images/portfolio-03.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
+      title: "Dalution Project",
+      img: "/images/dalution.png",
+      category: "Website",
+      keyword: ["Website", "NextJs", "UI-UX"],
       liveUrl: "#",
     },
   
     {
       id: "04",
-      title: "Fashion Shopping App",
-      img: "/images/portfolio-04.jpg",
-      category: "Mobile App",
-      keyword: ["Mobile", "App", "UI-UX"],
+      title: "Digital Business Cards",
+      img: "/images/digital_business_cards.png",
+      category: "Web App",
+      keyword: ["Web App", "ReactJS", "UI-UX"],
       liveUrl: "#",
     },
   
@@ -58,7 +58,7 @@ const portfolio = [
       title: "Portfolio Website",
       img: "/images/portfolio-07.png",
       category: "Web Design",
-      keyword: ["Web", "Web design", "UI-UX"],
+      keyword: ["Website", "Web design", "UI-UX"],
       liveUrl: "#",
     },
   
@@ -67,7 +67,7 @@ const portfolio = [
       title: "Restaurant Website",
       img: "/images/portfolio-08.png",
       category: "Web Design",
-      keyword: ["Web", "Web design", "UI-UX"],
+      keyword: ["Website", "Web design", "UI-UX"],
       liveUrl: "#",
     },
   
@@ -76,7 +76,7 @@ const portfolio = [
       title: "Agency Website",
       img: "/images/portfolio-09.png",
       category: "Web Design",
-      keyword: ["Web", "Web design", "UI-UX"],
+      keyword: ["Website", "Web design", "UI-UX"],
       liveUrl: "#",
     },
   ];

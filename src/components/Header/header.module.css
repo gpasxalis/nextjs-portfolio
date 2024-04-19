@@ -47,14 +47,14 @@
 
 .nav__right p {
   color: #20aeb3;
-  margin-left: 20px;
+  margin-left: 10px;
   position: relative;
 }
 .nav__right i {
   color: #808dad;
 }
 
-.nav__right p::before {
+/* .nav__right p::before {
   content: "";
   position: absolute;
   left: -20px;
@@ -62,6 +62,23 @@
   height: 14px;
   background: #808dad;
   color: #808dad;
+} */
+
+.nav__external_link{
+  background: #20aeb3;
+  color: #152046 !important;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.nav__external_link:hover{
+  background: #177e81 !important;
+}
+
+
+.nav__external_link i{
+  color: #152046 !important;
+  margin-right: 10px;
 }
 
 .header__shrink {

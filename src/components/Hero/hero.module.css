@@ -6,7 +6,8 @@
 
 
   .hero__content h5 {
-    color: #808dad;
+    /*color: #808dad;*/
+    color: #20aeb3;
     font-weight: 400;
   }
   
@@ -30,8 +31,8 @@
     width: 130px;
     padding: 10px 20px;
     position: absolute;
-    top: 50%;
-    left: 22%;
+    top: 18%;
+    left: 15%;
     transform: translateY(-50%);
     border-radius: 5px;
     background: #808dad26;
@@ -44,7 +45,7 @@
   }
   
   .hero__skills span i {
-    color: #01d293;
+    color: #20aeb3;
     background: transparent;
   }
   
@@ -55,8 +56,8 @@
   .hero__experience {
     width: 150px;
     position: absolute;
-    bottom: -10%;
-    right: -5%;
+    bottom: 10%;
+    right: -7%;
     padding: 10px 20px;
     border-radius: 5px;
     background: #808dad26;
@@ -77,12 +78,15 @@
   
   .hero__experience span i {
     padding: 5px;
-    color: #01d293;
+    color: #20aeb3;
     background: #808dad70;
     border-radius: 5px;
   }
   
   @media only screen and (max-width: 992px) {
+    .hero{
+      height: calc(70vh - 70px);
+    }
     .hero__content h2 {
       font-size: 1.5rem !important;
     }
@@ -103,7 +107,7 @@
     .hero__skills {
       padding: 10px;
       width: 90px;
-      left: 5%;
+      left: 10%;
     }
   
     .hero__skills h6,
@@ -115,6 +119,8 @@
     .hero__experience {
       padding: 10px;
       width: 115px;
+      bottom: -1%;
+      right: -12%;
     }
   
     .hero__experience h6 {
@@ -130,6 +136,10 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .hero{
+      height: calc(100vh - 70px);
+    }
+
     .hero__img {
       text-align: center !important;
       margin-top: 50px;

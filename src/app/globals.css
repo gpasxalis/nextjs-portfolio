@@ -102,6 +102,7 @@ footer {
 
 .secondary__btn a {
   color: #20aeb3 !important;
+  text-decoration: none;
 }
 
 .secondary__btn a:hover {

@@ -13,7 +13,7 @@
   }
   
   .service__item:hover {
-    background: #01d293;
+    background: #20aeb3;
     cursor: pointer;
   
     transform: translateY(-20px);

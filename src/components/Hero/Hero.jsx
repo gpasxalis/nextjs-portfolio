@@ -1,11 +1,12 @@
 "use client";
 
-import {React, useCallback} from "react";
+import {React, useCallback, useRef, useEffect} from "react";
 import SectionSubtitle from "../utils/SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "../../../public/images/hero.jpg";
+import Typed from "typed.js";
+import heroImg from "../../../public/images/developer.svg";
 import classes from "./hero.module.css"
 
 import Particles from "react-tsparticles";
@@ -17,6 +18,24 @@ const Hero = () => {
     await loadFull(engine);
   }, []);
 
+  const date = new Date();
+  const year = date.getFullYear() - 2019;
+
+  const typedTextRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: ["Developer", "Coder", "Tech Enthusiast"],
+      typeSpeed: 50,
+      backSpeed: 35,
+      loop: true,
+    };
+
+    const typed = new Typed(typedTextRef.current, options);
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <section className={`${classes.hero} d-flex align-items-center`}>
@@ -34,7 +53,7 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3 white_heading">I&apos;m Paschalis Grammenos</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h5 className="mb-4"><span className="typed-text" ref={typedTextRef}></span></h5>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
@@ -55,7 +74,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+              <Image alt="hero-image" src={heroImg} width="500" height="500" />
 
               <div className={`${classes.hero__skills}`}>
                 <h6>Skills</h6>
@@ -87,7 +106,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6 className="white_heading">Experience</h6>
-                  <h5 className="mb-0 white_heading">4 Years</h5>
+                  <h5 className="mb-0 white_heading">{year} Years</h5>
                 </div>
               </div>
             </div>

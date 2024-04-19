@@ -26,9 +26,8 @@ const Services = () => {
           </Col>
 
           <Col lg="6" md="6" className={`${classes.service__title}`}>
-            <SectionSubtitle subtitle="What I do" />
-            <h3 className="mb-0 mt-4 white_heading">Better Design,</h3>
-            <h3 className="mb-4 white_heading">Better Experience</h3>
+            <SectionSubtitle subtitle="Υπηρεσίες" />
+            <h3 className="mb-0 mt-4 mb-4 white_heading">Infinite Solutions</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
               culpa nobis corporis officiis, numquam cupiditate, enim expedita
