@@ -55,9 +55,9 @@ const Hero = () => {
               <h2 className="mt-3 mb-3 white_heading">I&apos;m Paschalis Grammenos</h2>
               <h5 className="mb-4"><span className="typed-text" ref={typedTextRef}></span></h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+                Λατρεύω το Web Development, τη δημιουργία μοναδικής εμπειρίας του χρήστη και διάφορες διαδικτυακές λύσεις. 
+                Με ταλέντο στην επίλυση προβλημάτων, ευδοκιμώ στη ανάπτυξη κομψού κώδικα που θα έχει αντίκτυπο στο internet.
+                Μου αρέσει να εξερευνώ νέα εργαλεία και να πειραματίζομαι. Είμαι ανοιχτός σε συνεργασίες και ιδέες για project.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">

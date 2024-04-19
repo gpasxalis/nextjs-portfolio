@@ -37,7 +37,8 @@ a {
 }
 
 p {
-  color: #808dad;
+  /* color: #808dad; */
+  color: #9daaca;
   line-height: 30px;
 }
 
