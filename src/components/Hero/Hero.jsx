@@ -1,13 +1,13 @@
 "use client";
 
-import {React, useCallback, useRef, useEffect} from "react";
+import { React, useCallback, useRef, useEffect } from "react";
 import SectionSubtitle from "../utils/SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
 import Typed from "typed.js";
 import heroImg from "../../../public/images/developer.svg";
-import classes from "./hero.module.css"
+import classes from "./hero.module.css";
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -40,24 +40,31 @@ const Hero = () => {
   return (
     <section className={`${classes.hero} d-flex align-items-center`}>
       <Particles
-          id="tsparticles"
-          init={particlesInit}
-          options={particleConfig}
-          position="relative"
-          zIndex={0}
-        />
+        id="tsparticles"
+        init={particlesInit}
+        options={particleConfig}
+        position="relative"
+        zIndex={0}
+      />
       <Container>
         <Row>
           {/* ========== hero content ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3 white_heading">I&apos;m Paschalis Grammenos</h2>
-              <h5 className="mb-4"><span className="typed-text" ref={typedTextRef}></span></h5>
+              <h2 className="mt-3 mb-3 white_heading">
+                I&apos;m Πασχάλης Γραμμένος
+              </h2>
+              <h5 className="mb-4">
+                <span className="typed-text" ref={typedTextRef}></span>
+              </h5>
               <p>
-                Λατρεύω το Web Development, τη δημιουργία μοναδικής εμπειρίας του χρήστη και διάφορες διαδικτυακές λύσεις. 
-                Με ταλέντο στην επίλυση προβλημάτων, ευδοκιμώ στη ανάπτυξη κομψού κώδικα που θα έχει αντίκτυπο στο internet.
-                Μου αρέσει να εξερευνώ νέα εργαλεία και να πειραματίζομαι. Είμαι ανοιχτός σε συνεργασίες και ιδέες για project.
+                Λατρεύω το Web Development, τη δημιουργία μοναδικής εμπειρίας
+                του χρήστη και διάφορες διαδικτυακές λύσεις. Με ταλέντο στην
+                επίλυση προβλημάτων, ευδοκιμώ στη ανάπτυξη κομψού κώδικα που θα
+                έχει αντίκτυπο στο internet. Μου αρέσει να εξερευνώ νέα εργαλεία
+                και να πειραματίζομαι. Είμαι ανοιχτός σε συνεργασίες και ιδέες
+                για project.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
