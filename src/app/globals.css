@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import "react-toastify/dist/ReactToastify.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 html,
 body {
@@ -9,12 +11,12 @@ body {
   background: #0e1630;
 }
 
-main{
+main {
   z-index: 10;
   position: relative;
 }
 
-#tsparticles{
+#tsparticles {
   position: absolute;
   top: 0;
   left: 0;
@@ -25,7 +27,6 @@ main{
   z-index: 0;
   height: calc(100vh - 70px) !important;
 }
-
 
 a {
   color: unset;
@@ -51,7 +52,7 @@ h6 {
   color: #fff;
 }
 
-.white_heading{
+.white_heading {
   color: #f5f5f7;
 }
 
@@ -64,7 +65,7 @@ section {
   padding-bottom: 150px;
 }
 
-#portfolio{
+#portfolio {
   padding-top: 0;
   background: #0e1630;
 }
@@ -85,11 +86,11 @@ footer {
 
 .primary__btn a {
   text-decoration: none;
-  color: #171f38;
+  color: #0b0f1b;
   background: transparent !important;
 }
 
-.primary__btn:hover{
+.primary__btn:hover {
   background: #177e81 !important;
   border: 1px solid #177e81 !important;
 }

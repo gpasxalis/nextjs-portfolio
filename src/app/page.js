@@ -5,6 +5,7 @@ import Portfolio from "@/components/Portfolio/Portfolio";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Services />  
+        <Services />
         <Portfolio />
         <Contact />
       </main>
+      <ToastContainer />
       <Footer />
     </>
   );

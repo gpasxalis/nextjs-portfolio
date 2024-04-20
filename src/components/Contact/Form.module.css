@@ -16,6 +16,16 @@
   color: #808dad;
 }
 
-.form button {
-  color: #171f38;
+.form__btn {
+  width: 100%;
+  background: #20aeb3 !important;
+  padding: 10px 25px !important;
+  border: 1px solid #20aeb3 !important;
+  border-radius: 5px;
+  color: #0b0f1b;
+}
+
+.form__btn:hover {
+  background: #177e81 !important;
+  border: 1px solid #177e81 !important;
 }

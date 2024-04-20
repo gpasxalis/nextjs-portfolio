@@ -53,7 +53,7 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3 white_heading">
-                I&apos;m Πασχάλης Γραμμένος
+                I&apos;m Paschalis Grammenos
               </h2>
               <h5 className="mb-4">
                 <span className="typed-text" ref={typedTextRef}></span>
