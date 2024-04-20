@@ -13,6 +13,9 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particleConfig from "../utils/particles.json";
 
+import Lottie from "lottie-react";
+import TrippleMonitorDev from "../utils/TrippleMonitorDev.json";
+
 const Hero = () => {
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
@@ -25,7 +28,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Developer", "Coder", "Tech Enthusiast"],
+      strings: ["Development", "Coding", "Web Designing", "Digital Marketing"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,
@@ -49,30 +52,27 @@ const Hero = () => {
       <Container>
         <Row>
           {/* ========== hero content ============= */}
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" className="d-flex align-items-center">
             <div className={`${classes.hero__content}`}>
-              <SectionSubtitle subtitle="Hello" />
+              <SectionSubtitle subtitle="Welcome" />
               <h2 className="mt-3 mb-3 white_heading">
-                I&apos;m Paschalis Grammenos
+                Dalution Project <span className="highlight__item">|</span>
+                <span className="highlight__hover_item"> Innovative </span>
               </h2>
-              <h5 className="mb-4">
+              <h5 className={`${classes.subheading} mb-4`}>
                 <span className="typed-text" ref={typedTextRef}></span>
               </h5>
               <p>
-                Λατρεύω το Web Development, τη δημιουργία μοναδικής εμπειρίας
-                του χρήστη και διάφορες διαδικτυακές λύσεις. Με ταλέντο στην
-                επίλυση προβλημάτων, ευδοκιμώ στη ανάπτυξη κομψού κώδικα που θα
-                έχει αντίκτυπο στο internet. Μου αρέσει να εξερευνώ νέα εργαλεία
-                και να πειραματίζομαι. Είμαι ανοιχτός σε συνεργασίες και ιδέες
-                για project.
+                Το Project δημιουργήθηκε για να καλύψει όλες τις διαδικτυακές
+                σας ανάγκες.
               </p>
-              <div className="mt-5">
+              <div className="mt-5 d-flex justify-content-center gap-3">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="#services">Υπηρεσίες</Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="#contact">Επικοινωνία</Link>
                 </button>
               </div>
             </div>
@@ -81,41 +81,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="500" height="500" />
-
-              <div className={`${classes.hero__skills}`}>
-                <h6>Skills</h6>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-              </div>
-
-              <div
-                className={`${classes.hero__experience} d-flex align-items-center gap-3`}
-              >
-                <span>
-                  <i className="ri-lightbulb-flash-line"></i>
-                </span>
-                <div className="bg-transparent">
-                  <h6 className="white_heading">Experience</h6>
-                  <h5 className="mb-0 white_heading">{year} Years</h5>
-                </div>
-              </div>
+              <Lottie animationData={TrippleMonitorDev} />
             </div>
           </Col>
         </Row>

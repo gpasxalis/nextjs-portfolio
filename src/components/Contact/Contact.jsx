@@ -14,24 +14,23 @@ const Contact = () => {
             <SectionSubtitle subtitle="Επικοινωνία" />
             <h3 className="mt-4 mb-4 white_heading">Επικοινώνησε μαζί μου</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+              Πείτε μας λίγα λόγια για το project σας, και θα επικοινωνήσουμε
+              μαζί σας για να το σχεδιάσουμε μαζί και να το πραγματοποιήσουμε!
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
-                <li className={`${classes.info__item}`}>
-                    <span>
-                    <i className="ri-mail-line"></i>
-                    </span>
-                    <p>gpasxalis94@gmail.com</p>
-                </li>
-                <li className={`${classes.info__item}`}>
-                    <span>
-                    <i className="ri-map-pin-line"></i>
-                    </span>
-                    <p>Greece</p>
-                </li>
+              <li className={`${classes.info__item}`}>
+                <span>
+                  <i className="ri-mail-line"></i>
+                </span>
+                <p>gpasxalis94@gmail.com</p>
+              </li>
+              <li className={`${classes.info__item}`}>
+                <span>
+                  <i className="ri-map-pin-line"></i>
+                </span>
+                <p>Greece</p>
+              </li>
             </ul>
 
             <div className={`${classes.social__links}`}>

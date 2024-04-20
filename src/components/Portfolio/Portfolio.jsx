@@ -38,29 +38,30 @@ const Portfolio = () => {
         <Row>
           <Col lg="7" md="6" className="mb-5">
             <SectionSubtitle subtitle="Portfolio" />
-            <h4 className="mt-4 white_heading">Μερικά απο τα πιο σημαντικά projects τα οποία έχω αναπτύξει.</h4>
+            <h4 className="mt-4 white_heading">
+              Μερικά απο τα πιο σημαντικά projects τα οποία έχω αναπτύξει.
+            </h4>
           </Col>
 
           <Col lg="5" md="6">
             <div className={`${classes.tab__btns} text-end`}>
-                <button
-                    className={`${
-                    filter === "Website" ? active : ""
-                    } secondary__btn text-white`}
-                    onClick={() => setFilter("Website")}
-                >
-                    Website
-                </button>
+              <button
+                className={`${
+                  filter === "Website" ? active : ""
+                } secondary__btn text-white`}
+                onClick={() => setFilter("Website")}
+              >
+                Website
+              </button>
 
-                <button
-                    className={` ${
-                    filter === "Web App" ? active : ""
-                    } secondary__btn text-white`}
-                    onClick={() => setFilter("Web App")}
-                >
-                    Web App
-                </button>
-              
+              <button
+                className={` ${
+                  filter === "Web App" ? active : ""
+                } secondary__btn text-white`}
+                onClick={() => setFilter("Web App")}
+              >
+                Web App
+              </button>
             </div>
           </Col>
 

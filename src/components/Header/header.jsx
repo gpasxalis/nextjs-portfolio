@@ -13,11 +13,11 @@ const NAV__LINK = [
   },
   {
     path: "#about",
-    display: "About",
+    display: "Project",
   },
   {
     path: "#services",
-    display: "Services",
+    display: "Υπηρεσίες",
   },
   {
     path: "#portfolio",
@@ -25,7 +25,7 @@ const NAV__LINK = [
   },
   {
     path: "#contact",
-    display: "Contact",
+    display: "Επικοινωνία",
   },
 ];
 
@@ -80,7 +80,11 @@ const Header = () => {
 
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
-                  <Link href="https://dalution.gr/" target="_blank" className={`${classes.nav__external_link}`}>
+                  <Link
+                    href="https://dalution.gr/"
+                    target="_blank"
+                    className={`${classes.nav__external_link}`}
+                  >
                     <i className="ri-external-link-line"></i>My Digital Card{" "}
                   </Link>
                 </p>

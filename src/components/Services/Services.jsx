@@ -1,8 +1,13 @@
+"use client";
+
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "../utils/SectionSubtitle";
 import classes from "./Services.module.css";
 import ServicesItem from "./ServicesItem";
+
+import Lottie from "lottie-react";
+import LaptopCoffee from "../utils/LaptopCoffee.json";
 
 const Services = () => {
   return (
@@ -10,31 +15,41 @@ const Services = () => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className={`${classes.services__container}`}>
-              <div>
-                <ServicesItem title="Κατασκευή Ιστοσελίδων" icon="ri-computer-line" />
-
-
-                <ServicesItem title="Digital Marketing" icon="ri-apps-line" />
-              </div>
-
-              <ServicesItem
-                title="Web Solutions"
-                icon="ri-code-s-slash-line"
-              />
-            </div>
+            <Lottie animationData={LaptopCoffee} />
           </Col>
 
           <Col lg="6" md="6" className={`${classes.service__title}`}>
             <SectionSubtitle subtitle="Υπηρεσίες" />
             <h3 className="mb-0 mt-4 mb-4 white_heading">Infinite Solutions</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
-            </p>
+            <div className={`${classes.services__container}`}>
+              <div>
+                <ServicesItem
+                  title="Κατασκευή Ιστοσελίδων"
+                  icon="ri-computer-line"
+                  css_class="left-item"
+                />
+
+                <ServicesItem
+                  title="Κατασκευή Eshop"
+                  icon="ri-apps-line"
+                  css_class="left-item"
+                />
+              </div>
+
+              <div>
+                <ServicesItem
+                  title="Digital Marketing"
+                  icon="ri-computer-line"
+                  css_class="right-item"
+                />
+
+                <ServicesItem
+                  title="24/7 Υποστήριξη"
+                  icon="ri-apps-line"
+                  css_class="right-item"
+                />
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
