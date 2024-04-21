@@ -23,7 +23,7 @@ const Contact = () => {
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>gpasxalis94@gmail.com</p>
+                <p>paschalisgrammenos@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
