@@ -6,10 +6,12 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 
 import { ToastContainer } from "react-toastify";
+import FlareCursor from "@/components/utils/FlareCursor";
 
 export default function Home() {
   return (
     <>
+      <FlareCursor />
       <Header />
       <main>
         <Hero />
