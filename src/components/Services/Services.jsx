@@ -31,7 +31,7 @@ const Services = () => {
 
                 <ServicesItem
                   title="Κατασκευή Eshop"
-                  icon="ri-apps-line"
+                  icon="ri-computer-line"
                   css_class="left-item"
                 />
               </div>
@@ -39,7 +39,7 @@ const Services = () => {
               <div>
                 <ServicesItem
                   title="Digital Marketing"
-                  icon="ri-computer-line"
+                  icon="ri-line-chart-line"
                   css_class="right-item"
                 />
 

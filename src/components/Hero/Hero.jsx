@@ -28,7 +28,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Development", "Coding", "Web Designing", "Digital Marketing"],
+      strings: ["Development", "Coding", "Design", "Digital Marketing"],
       typeSpeed: 50,
       backSpeed: 35,
       loop: true,

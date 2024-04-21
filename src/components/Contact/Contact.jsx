@@ -32,24 +32,6 @@ const Contact = () => {
                 <p>Greece</p>
               </li>
             </ul>
-
-            <div className={`${classes.social__links}`}>
-              <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-github-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-facebook-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-linkedin-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-instagram-line"></i>
-              </Link>
-            </div>
           </Col>
 
           <Col lg="6" md="6">

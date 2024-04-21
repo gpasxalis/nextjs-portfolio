@@ -1,7 +1,9 @@
 import "remixicon/fonts/remixicon.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import "./globals.css";
+
+import { Quicksand } from "next/font/google";
+
+const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dalution Project | by Paschalis Grammenos",
@@ -14,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={quicksand.className}>{children}</body>
     </html>
   );
 }
