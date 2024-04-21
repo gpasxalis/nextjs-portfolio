@@ -78,7 +78,7 @@ const Header = () => {
                 </Link>
               ))}
 
-              <div className={`${classes.nav__right}`}>
+              {/* <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   <Link
                     href="https://dalution.gr/"
@@ -88,7 +88,7 @@ const Header = () => {
                     <i className="ri-external-link-line"></i>My Digital Card{" "}
                   </Link>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 
