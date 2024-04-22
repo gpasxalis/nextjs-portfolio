@@ -6,7 +6,7 @@ import { Quicksand } from "next/font/google";
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dalution Project | by Paschalis Grammenos",
+  title: "Dalution Project | Innovative | Web Solutions",
   description:
     "Το Dalution Project δημιουργήθηκε για να καλύψει όλες τις διαδικτυακές ανάγκες. Όπως για παράδειγμα κατασκευή ιστοσελίδων, κατασκευή e-shop, SEO και Digital Marketing.",
   icons: {
