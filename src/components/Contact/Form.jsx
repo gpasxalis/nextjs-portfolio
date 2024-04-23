@@ -57,7 +57,7 @@ const Form = () => {
       <div className={`${classes.form__group}`}>
         <input
           type="text"
-          placeholder="Your Name"
+          placeholder="Όνομα"
           value={input.name}
           onChange={(e) => setInput({ ...input, name: e.target.value })}
           onBlur={checkRequired}
@@ -67,7 +67,7 @@ const Form = () => {
       <div className={`${classes.form__group}`}>
         <input
           type="email"
-          placeholder="Email Address"
+          placeholder="Email"
           value={input.email}
           onChange={(e) => setInput({ ...input, email: e.target.value })}
           onBlur={checkRequired}
@@ -78,7 +78,7 @@ const Form = () => {
         <textarea
           type="text"
           rows={5}
-          placeholder="Message"
+          placeholder="Το μήνυμά σας"
           value={input.message}
           onChange={(e) => setInput({ ...input, message: e.target.value })}
           onBlur={checkRequired}
