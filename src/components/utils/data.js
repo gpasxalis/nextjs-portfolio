@@ -2,7 +2,7 @@ const portfolio = [
   {
     id: "01",
     title: "Website | epapanikolaou.gr",
-    img: "/images/epapanikolaou_portfolio.jpg",
+    img: "/images/epap_mockup.jpg",
     category: "Website",
     keyword: ["Website", "Wordpress"],
     liveUrl: "https://epapanikolaou.gr/",
@@ -11,7 +11,7 @@ const portfolio = [
   {
     id: "02",
     title: "Website | KarasakalidisLTD",
-    img: "/images/karasakalidis_portfolio.jpg",
+    img: "/images/karasak_mockup.jpg",
     category: "Website",
     keyword: ["Website", "Wordpress", "Multilanguage"],
     liveUrl: "https://karasakalidisltd.com/",
@@ -20,7 +20,7 @@ const portfolio = [
   {
     id: "03",
     title: "Website | Dalution Project",
-    img: "/images/dalution_portfolio.jpg",
+    img: "/images/dalution_mockup.jpg",
     category: "Website",
     keyword: ["Website", "NextJs", "UI-UX"],
     liveUrl: "#",
