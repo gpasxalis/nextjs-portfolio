@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 // This functional component represents a custom cursor with a flare effect.
 function FlareCursor() {
   // State to track the current cursor position (x, y coordinates).
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [position, setPosition] = useState({ x: -100, y: -100 });
 
   // State to track whether the cursor is over a clickable element.
   const [isPointer, setIsPointer] = useState(false);

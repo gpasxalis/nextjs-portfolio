@@ -34,15 +34,6 @@ const portfolio = [
     keyword: ["Web App", "ReactJS", "UI-UX"],
     liveUrl: "#",
   },
-
-  {
-    id: "05",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-05.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
 ];
 
 export default portfolio;

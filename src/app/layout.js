@@ -12,6 +12,7 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  authors: [{ name: 'Dalution Project' }],
   keywords: ["Κατασκευή Ιστοσελίδων", "Κατασκευή e-shop", "SEO", "Dalution"],
 };
 
