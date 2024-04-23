@@ -29,7 +29,7 @@ const portfolio = [
   {
     id: "04",
     title: "Web App | Digital Business Cards",
-    img: "/images/digital_cards_portfolio.jpg",
+    img: "/images/digital_cards_mockup.jpg",
     category: "Web App",
     keyword: ["Web App", "ReactJS", "UI-UX"],
     liveUrl: "#",
