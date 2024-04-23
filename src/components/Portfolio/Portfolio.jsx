@@ -9,7 +9,7 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../utils/data";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("");
+  const [filter, setFilter] = useState("Website");
   const [data, setData] = useState();
 
   useEffect(() => {
